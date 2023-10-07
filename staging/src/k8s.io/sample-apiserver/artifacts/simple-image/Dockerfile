@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM fedora
+FROM fedora:latest@sha256:67711ccbc7628eeca3e51daff898489719d36c88996869f8339a7f7af8dae1ef
 ADD kube-sample-apiserver /
 ENTRYPOINT ["/kube-sample-apiserver"]
