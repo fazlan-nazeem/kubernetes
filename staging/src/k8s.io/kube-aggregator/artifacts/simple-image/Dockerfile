@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM fedora
+FROM fedora:latest@sha256:8285246bd5fad4e76e17a71c88dee34c49e2f227dab4ce7df704b592f8e72d41
 ADD kube-aggregator /
 ENTRYPOINT ["/kube-aggregator"]
